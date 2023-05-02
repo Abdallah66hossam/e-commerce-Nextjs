@@ -15,7 +15,7 @@ export default function Home({ products }) {
   return (
     <div>
       <Banner />
-      <Products />
+      <Products products={products} />
       <Newsletter />
       <Testmonials />
     </div>

@@ -38,12 +38,12 @@ const ShoppingCart = () => {
             products?.map((product) => {
               return (
                 <div
-                  key={product._id}
+                  key={product.id}
                   className="flex items-center sm:flex-col sm:justify-center mt-14 border-t border-gray-200 w-full"
                 >
                   <div className="w-1/4 sm:w-full mt-7">
-                    <Image
-                      src={product.img}
+                    <img
+                      src={product.image}
                       alt="product item"
                       className="object-cover  lg:w-screen md:h-[400px] md:mb-4"
                       width={400}
@@ -65,7 +65,7 @@ const ShoppingCart = () => {
                     </p>
                     <button
                       className="leading-3 underline text-red-700 cursor-pointer text-base"
-                      onClick={() => dispatch(removeCart(product._id))}
+                      onClick={() => dispatch(removeCart(product.id))}
                     >
                       remove
                     </button>

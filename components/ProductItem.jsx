@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Image from "next/image";
 
-const ProductItems = ({ _id, title, price, category, image }) => {
+const ProductItems = ({ id, title, price, category, image }) => {
   const dispatch = useDispatch();
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -18,7 +18,7 @@ const ProductItems = ({ _id, title, price, category, image }) => {
       className="h-fit w-48 md:w-44 bg-white shadow rounded-lg group overflow-hidden"
       data-aos="zoom-in"
     >
-      <Link href={`/products/${_id}`}>
+      <Link href={`/products/${id}`}>
         <img
           src={image}
           className="object-cover h-[200px] w-full rounded-t-lg group-hover:scale-110 duration-700"
@@ -38,7 +38,7 @@ const ProductItems = ({ _id, title, price, category, image }) => {
         <button
           className="bg-black text-white px-4 py-1 md:py-2 md:px-2 text-sm md:text-[12px] rounded-3xl hover:bg-transparent hover:text-black duration-150 border-2 border-transparent hover:border-black mt-3 flex items-center"
           onClick={() => {
-            dispatch(addToCart({ _id, title, price, category, image }));
+            dispatch(addToCart({ id, title, price, category, image }));
           }}
         >
           Add to cart

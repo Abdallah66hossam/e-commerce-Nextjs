@@ -11,7 +11,7 @@ const cartSlice = createSlice({
     addToCart(state, { payload }) {
       // checking if the product is already in the cart
       const checked = state.products.findIndex(
-        (product) => product._id == payload._id
+        (product) => product.id == payload.id
       );
       // add it if not
       if (checked == -1) {
@@ -23,7 +23,7 @@ const cartSlice = createSlice({
     },
     removeCart(state, { payload }) {
       state.products = state.products.filter(
-        (product) => product._id !== payload
+        (product) => product.id !== payload
       );
     },
   },
