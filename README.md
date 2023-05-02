@@ -1,5 +1,6 @@
 ![Logo](https://mobisoftinfotech.com/resources/wp-content/uploads/2022/04/next-JS-framework.png)
-Ecommerce with NextJs and TailwindCSS## API Reference :
+Ecommerce with NextJs and TailwindCSS
+## API Reference :
 
 fake store API
 ## Demo :
