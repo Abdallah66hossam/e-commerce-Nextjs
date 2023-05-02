@@ -25,56 +25,65 @@ const Category = ({ products }) => {
       <div className="flex items-center pb-1">
         <input
           type="radio"
-          id="smartphones"
+          id="men's clothing"
           name="category"
-          value="smartphones"
+          value="men's clothing"
           className="relative top-[2px] mr-1 cursor-pointer"
           onClick={handelFilter}
         />
         <label
-          htmlFor="smartphones"
-          className="cursor-pointer text-blue-gray-800"
+          htmlFor="men's clothing"
+          className="cursor-pointer text-blue-gray-800 text-sm"
         >
-          smartphones
+          MEN{`'`}S CLOTHING
         </label>
       </div>
       <div className="flex items-center pb-1">
         <input
           type="radio"
-          id="watches"
+          id="jewelery"
           name="category"
-          value="watches"
+          value="jewelery"
           className="relative top-[2px] mr-1 cursor-pointer"
           onClick={handelFilter}
         />
-        <label htmlFor="watches" className="cursor-pointer text-blue-gray-800">
-          watches
+        <label
+          htmlFor="jewelery"
+          className="cursor-pointer text-blue-gray-800  text-sm"
+        >
+          JEWELERY
         </label>
       </div>
       <div className="flex items-center pb-1">
         <input
           type="radio"
-          id="cameras"
+          id="electronics"
           name="category"
-          value="cameras"
+          value="electronics"
           className="relative top-[2px] mr-1 cursor-pointer"
           onClick={handelFilter}
         />
-        <label htmlFor="cameras" className="cursor-pointer text-blue-gray-800">
-          cameras
+        <label
+          htmlFor="electronics"
+          className="cursor-pointer text-blue-gray-800  text-sm"
+        >
+          ELECTRONICS
         </label>
       </div>
       <div className="flex items-center pb-1">
         <input
           type="radio"
-          id="airpods"
+          id="women's clothing"
           name="category"
-          value="airpods"
+          value="women's clothing"
           className="relative top-[2px] mr-1 cursor-pointer"
           onClick={handelFilter}
         />
-        <label htmlFor="airpods" className="cursor-pointer text-blue-gray-800">
-          airpods
+        <label
+          htmlFor="women's clothing"
+          className="cursor-pointer text-blue-gray-800 text-sm"
+        >
+          WOMEN {`'`}S CLOTHING
         </label>
       </div>
       <div className="flex items-center pb-1">

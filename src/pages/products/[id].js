@@ -7,7 +7,7 @@ const ProductPage = ({ product }) => {
 
 export async function getServerSideProps(context) {
   const product = await axios
-    .get(`http://localhost:3000/api/products/${context.params.id}`)
+    .get(`https://fakestoreapi.com/products/${context.params.id}`)
     .then((res) => {
       return res.data;
     });

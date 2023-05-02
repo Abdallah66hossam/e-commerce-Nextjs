@@ -6,7 +6,6 @@ import { useDispatch } from "react-redux";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import Image from "next/image";
 
 const ProductDetails = ({ product }) => {
   useEffect(() => {
@@ -14,7 +13,7 @@ const ProductDetails = ({ product }) => {
     Aos.refresh();
   }, []);
   const dispatch = useDispatch();
-  const { img, title, description, rating, price, category } = product;
+  const { image, title, description, rating, price, category } = product;
   const stars = [
     <AiFillStar size={22} color="gold" key={1} />,
     <AiFillStar size={22} color="gold" key={2} />,
@@ -47,10 +46,10 @@ const ProductDetails = ({ product }) => {
     <section className="text-gray-700 body-font overflow-hidden my-20">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex sm:flex-col" data-aos="fade-zoom-left">
-          <Image
-            alt="product img"
+          <img
+            alt="product image"
             className="h-[450px] object-cover object-center sm:w-full rounded border border-gray-200"
-            src={img}
+            src={image}
             width={500}
             height={400}
             data-aos="fade-zoom-left"
