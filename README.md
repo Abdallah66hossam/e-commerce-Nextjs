@@ -3,7 +3,9 @@ Ecommerce with NextJs and TailwindCSS## API Reference :
 
 fake store API
 ## Demo :
-https://ecommerce-iota-eight-44.vercel.app/## Functionality :
+https://ecommerce-iota-eight-44.vercel.app/##
+
+Functionality :
 
 - Adding Items to the Cart and Removing them
 - Show The Cart Details
