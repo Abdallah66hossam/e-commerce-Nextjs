@@ -7,7 +7,6 @@ import "aos/dist/aos.css";
 
 const Products = () => {
   const products = useSelector((state) => state.category.products);
-  console.log(products);
   const [loadMore, setLoadMore] = useState(false);
   const [btndisplay, setBtnDisplay] = useState(true);
   const [spinner, setSpinner] = useState(true);
