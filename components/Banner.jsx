@@ -40,7 +40,7 @@ export default function Banner() {
             data-aos="fade-zoom-in"
           >
             <div className="relative left-[12%] md:left-[5%]">
-              <h1 className="uppercase text-black font-light pb-5 text-[40px] w-[70%] md:text-[30px] sm:text-[10px]">
+              <h1 className="uppercase text-black font-light pb-5 text-[40px] w-[70%] md:text-[30px]">
                 Technology Hack You Won{`'`}t Get
               </h1>
               <Link
@@ -63,7 +63,7 @@ export default function Banner() {
           md:mt-10"
           >
             <div className="relative left-[12%] md:left-[5%]">
-              <h1 className="uppercase text-black font-light pb-5 text-[40px] w-[70%] md:text-[30px] sm:text-[10px]">
+              <h1 className="uppercase text-black font-light pb-5 text-[40px] w-[70%] md:text-[30px]">
                 Technology Hack You Won{`'`}t Get
               </h1>
               <Link
@@ -86,7 +86,7 @@ export default function Banner() {
           md:mt-10"
           >
             <div className="relative left-[12%] md:left-[5%]">
-              <h1 className="uppercase text-black font-light pb-5 text-[40px] w-[70%] md:text-[30px] sm:text-[10px]">
+              <h1 className="uppercase text-black font-light pb-5 text-[40px] w-[70%] md:text-[30px]">
                 Technology Hack You Won{`'`}t Get
               </h1>
               <Link
