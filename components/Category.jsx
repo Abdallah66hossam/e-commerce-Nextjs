@@ -19,7 +19,7 @@ const Category = ({ products }) => {
   }, []);
   return (
     <div
-      className="h-fit bg-gray-300 w-[30%] md:w-full p-5 rounded"
+      className="h-fit bg-gray-100 w-[30%] md:w-full p-5 rounded"
       data-aos="fade-zoom-in"
     >
       <div className="flex items-center pb-1">

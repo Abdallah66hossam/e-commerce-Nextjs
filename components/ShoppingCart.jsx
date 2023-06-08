@@ -85,7 +85,7 @@ const ShoppingCart = () => {
           )}
         </section>
         <section
-          className="bg-gray-300 md:w-full w-[30%] h-60 flex flex-col justify-center items-center"
+          className="rounded bg-gray-100 lg:w-full lg:mt-10 w-[30%] h-60 flex flex-col justify-center items-center"
           data-aos="fade-zoom-right"
         >
           <div className="px-14 py-16 justify-between w-full">

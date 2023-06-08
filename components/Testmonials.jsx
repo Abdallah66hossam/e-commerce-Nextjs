@@ -34,11 +34,11 @@ const Testmonials = () => {
       data-aos="fade-zoom-in"
     >
       <SwiperSlide>
-        <section className="bg-white dark:bg-gray-900 container">
+        <section className="bg-transparent container">
           <div className="max-w-screen-xl md:px-4 md:py-8 mx-auto text-center py-16 px-6">
             <figure className="max-w-screen-md mx-auto">
               <svg
-                className="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600"
+                className="h-12 mx-auto mb-3 text-gray-400"
                 viewBox="0 0 24 27"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ const Testmonials = () => {
                 />
               </svg>
               <blockquote>
-                <p className="text-2xl md:text-base font-medium text-gray-900 dark:text-white">
+                <p className="text-2xl md:text-base font-medium text-gray-900">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industries
                   standard dummy text ever since the 1500s, when an unknown
@@ -64,11 +64,11 @@ const Testmonials = () => {
                   width={200}
                   height={200}
                 />
-                <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                  <div className="pr-3 font-medium text-gray-900 dark:text-white md:text-sm">
+                <div className="flex items-center divide-x-2 divide-gray-500">
+                  <div className="pr-3 font-medium text-gray-900">
                     Micheal Gough
                   </div>
-                  <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400 md:text-xs">
+                  <div className="pl-3 text-sm font-light text-gray-500 md:text-xs">
                     CEO
                   </div>
                 </div>
@@ -78,11 +78,11 @@ const Testmonials = () => {
         </section>
       </SwiperSlide>
       <SwiperSlide>
-        <section className="bg-white dark:bg-gray-900 container">
+        <section className="bg-transparent container">
           <div className="max-w-screen-xl md:px-4 md:py-8 mx-auto text-center py-16 px-6">
             <figure className="max-w-screen-md mx-auto">
               <svg
-                className="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600"
+                className="h-12 mx-auto mb-3 text-gray-400"
                 viewBox="0 0 24 27"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +93,7 @@ const Testmonials = () => {
                 />
               </svg>
               <blockquote>
-                <p className="text-2xl md:text-base font-medium text-gray-900 dark:text-white">
+                <p className="text-2xl md:text-base font-medium text-gray-900">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industries
                   standard dummy text ever since the 1500s, when an unknown
@@ -108,11 +108,11 @@ const Testmonials = () => {
                   height={200}
                   width={200}
                 />
-                <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                  <div className="pr-3 font-medium text-gray-900 dark:text-white md:text-sm">
+                <div className="flex items-center divide-x-2 divide-gray-500">
+                  <div className="pr-3 font-medium text-gray-900 md:text-sm">
                     Jonas Smith
                   </div>
-                  <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400 md:text-xs">
+                  <div className="pl-3 text-sm font-light text-gray-500 md:text-xs">
                     CTO
                   </div>
                 </div>
@@ -122,11 +122,11 @@ const Testmonials = () => {
         </section>
       </SwiperSlide>
       <SwiperSlide>
-        <section className="bg-white dark:bg-gray-900 container">
+        <section className="bg-transparent container">
           <div className="max-w-screen-xl md:px-4 md:py-8 mx-auto text-center py-16 px-6">
             <figure className="max-w-screen-md mx-auto">
               <svg
-                className="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600"
+                className="h-12 mx-auto mb-3 text-gray-400"
                 viewBox="0 0 24 27"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -137,7 +137,7 @@ const Testmonials = () => {
                 />
               </svg>
               <blockquote>
-                <p className="text-2xl md:text-base font-medium text-gray-900 dark:text-white">
+                <p className="text-2xl md:text-base font-medium text-gray-900">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industries
                   standard dummy text ever since the 1500s, when an unknown
@@ -152,11 +152,11 @@ const Testmonials = () => {
                   height={200}
                   width={200}
                 />
-                <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                  <div className="pr-3 font-medium text-gray-900 dark:text-white md:text-sm">
+                <div className="flex items-center divide-x-2 divide-gray-500">
+                  <div className="pr-3 font-medium text-gray-900 md:text-sm">
                     Frank Walter
                   </div>
-                  <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400 md:text-xs">
+                  <div className="pl-3 text-sm font-light text-gray-500 md:text-xs">
                     HR
                   </div>
                 </div>
@@ -166,11 +166,11 @@ const Testmonials = () => {
         </section>
       </SwiperSlide>
       <SwiperSlide>
-        <section className="bg-white dark:bg-gray-900 container">
+        <section className="bg-transparent container">
           <div className="max-w-screen-xl md:px-4 md:py-8 mx-auto text-center py-16 px-6">
             <figure className="max-w-screen-md mx-auto">
               <svg
-                className="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600"
+                className="h-12 mx-auto mb-3 text-gray-400"
                 viewBox="0 0 24 27"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -181,7 +181,7 @@ const Testmonials = () => {
                 />
               </svg>
               <blockquote>
-                <p className="text-2xl md:text-base font-medium text-gray-900 dark:text-white">
+                <p className="text-2xl md:text-base font-medium text-gray-900">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industries
                   standard dummy text ever since the 1500s, when an unknown
@@ -196,11 +196,11 @@ const Testmonials = () => {
                   height={200}
                   width={200}
                 />
-                <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                  <div className="pr-3 font-medium text-gray-900 dark:text-white md:text-sm">
+                <div className="flex items-center divide-x-2 divide-gray-500">
+                  <div className="pr-3 font-medium text-gray-900 md:text-sm">
                     Tomas James
                   </div>
-                  <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400 md:text-xs">
+                  <div className="pl-3 text-sm font-light text-gray-500 md:text-xs">
                     DEVElOPER
                   </div>
                 </div>
