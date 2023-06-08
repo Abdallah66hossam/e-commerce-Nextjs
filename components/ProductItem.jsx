@@ -6,27 +6,28 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 const ProductItems = ({ id, title, price, category, image }) => {
   const dispatch = useDispatch();
+  const router = useRouter();
   useEffect(() => {
     Aos.init({ duration: 1000 });
     Aos.refresh();
   }, []);
   return (
     <div
-      className="h-fit w-48 md:w-44 bg-white shadow rounded-lg group overflow-hidden sm:w-[80%]"
+      className="h-fit cursor-pointer w-48 md:w-44 bg-white shadow rounded-lg group overflow-hidden sm:w-[80%]"
       data-aos="zoom-in"
+      onClick={() => router.push(`/products/${id}`)}
     >
-      <Link href={`/products/${id}`}>
-        <img
-          src={image}
-          className="object-cover h-[200px] w-full rounded-t-lg group-hover:scale-110 duration-700"
-          alt="product image"
-          width={150}
-          height={250}
-        />
-      </Link>
+      <img
+        src={image}
+        className="object-cover h-[200px] w-full rounded-t-lg group-hover:scale-110 duration-700"
+        alt="product image"
+        width={150}
+        height={250}
+      />
       <div className="p-4 flex flex-col items-center">
         <p className="text-gray-400 font-light text-xs text-center uppercase">
           {category}
