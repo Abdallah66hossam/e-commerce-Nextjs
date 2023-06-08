@@ -5,7 +5,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { removeCart } from "../redux/cartSlice";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Image from "next/image";
 
 const ShoppingCart = () => {
   const products = useSelector((state) => state.cart.products);
@@ -65,7 +64,7 @@ const ShoppingCart = () => {
                     </p>
                     <button
                       className="leading-3 underline text-red-700 cursor-pointer text-base"
-                      onClick={() => dispatch(removeCart(product.id))}
+                      onClick={() => dispatch(removeCart(product))}
                     >
                       remove
                     </button>

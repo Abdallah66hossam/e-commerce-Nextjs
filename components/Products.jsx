@@ -36,11 +36,11 @@ const Products = () => {
             {!loadMore
               ? products
                   .map((product) => (
-                    <ProductItem {...product} key={product._id} />
+                    <ProductItem {...product} key={product.id} />
                   ))
                   .slice(0, 8)
               : products.map((product) => (
-                  <ProductItem {...product} key={product._id} />
+                  <ProductItem {...product} key={product.id} />
                 ))}
           </main>
         </section>

@@ -13,12 +13,12 @@ export default function Home({ products }) {
     dispatch(getProducts(products));
   }, [dispatch, products]);
   return (
-    <div>
+    <main>
       <Banner />
       <Products products={products} />
       <Newsletter />
       <Testmonials />
-    </div>
+    </main>
   );
 }
 

@@ -16,15 +16,17 @@ const cartSlice = createSlice({
       // add it if not
       if (checked == -1) {
         state.products.push(payload);
+        // incresing the quntity and total values
+        state.quntity = ++state.quntity;
+        state.total = state.total + payload.price;
       }
-      // incresing the quntity and total values
-      state.quntity = ++state.quntity;
-      state.total = state.total + state.quntity * payload.price;
     },
     removeCart(state, { payload }) {
       state.products = state.products.filter(
-        (product) => product.id !== payload
+        (product) => product.id !== payload.id
       );
+      state.quntity = --state.quntity;
+      state.total = state.total - payload.price;
     },
   },
 });
