@@ -1,4 +1,5 @@
 import Banner from "../../components/Banner";
+import Contact from "../../components/Contact";
 import Newsletter from "../../components/Newsletter";
 import Products from "../../components/Products";
 import Testmonials from "../../components/Testmonials";
@@ -18,6 +19,7 @@ export default function Home({ products }) {
       <Products products={products} />
       <Newsletter />
       <Testmonials />
+      <Contact />
     </main>
   );
 }

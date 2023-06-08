@@ -32,7 +32,7 @@ const Products = () => {
         </h1>
         <section className="flex flex-wrap gap-3">
           <Category staticProducts={products} />
-          <main className="flex flex-wrap gap-y-7 md:gap-2 justify-around w-[68%] md:w-full">
+          <main className="flex flex-wrap gap-y-7 md:gap-4 justify-around w-[68%] md:w-full">
             {!loadMore
               ? products
                   .map((product) => (

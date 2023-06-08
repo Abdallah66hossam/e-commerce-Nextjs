@@ -15,7 +15,7 @@ const ProductItems = ({ id, title, price, category, image }) => {
   }, []);
   return (
     <div
-      className="h-fit w-48 md:w-44 bg-white shadow rounded-lg group overflow-hidden"
+      className="h-fit w-48 md:w-44 bg-white shadow rounded-lg group overflow-hidden sm:w-[80%]"
       data-aos="zoom-in"
     >
       <Link href={`/products/${id}`}>
