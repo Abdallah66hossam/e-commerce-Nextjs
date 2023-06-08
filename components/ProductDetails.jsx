@@ -55,7 +55,7 @@ const ProductDetails = ({ product }) => {
             data-aos="fade-zoom-left"
           />
           <div
-            className="w-1/2  pl-10 py-6 mt-0 sm:w-full"
+            className="w-1/2 pl-10 sm:pl-0 py-6 mt-0 sm:w-full"
             data-aos="fade-zoom-right"
           >
             <h2 className="text-sm title-font text-gray-500 tracking-widest">

@@ -44,7 +44,7 @@ export default function Banner() {
                 Technology Hack You Won{`'`}t Get
               </h1>
               <Link
-                href="/"
+                href={""}
                 className="bg-black text-white px-4 py-3 md:py-2 md:px-2 md:text-[12px] rounded hover:bg-transparent hover:text-black duration-150 border-2 border-transparent hover:border-black"
               >
                 Shop Product
